@@ -7,4 +7,6 @@ import org.springframework.stereotype.Repository;
 public interface BookRepository extends JpaRepository<Book, Long> {
     // DAO data access class
     // generates CRUD functions: CREATE, REMOVE, UPDATE, DELETE
+
+    // added something here
 }
