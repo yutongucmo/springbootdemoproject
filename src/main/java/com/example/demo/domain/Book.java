@@ -14,11 +14,14 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class Book {
+
+    //
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; // primary key in the h2 database
     private String title;
     private String author;
+    private String test = "Yutong: Hahahahahahahahha!!!!!";
 
     public Long getId() {
         return id;
